@@ -5,7 +5,7 @@ public interface ICustomerDal {
     Customer getById(int id);
     void add(Customer customer);
     void delete(Customer customer);
-    //destek al
+   
     void update(int id,Customer customer);
 
 }
